@@ -1,3 +1,8 @@
+# Rasa related files to ignore
+models/
+.rasa/
+
+## Default Ignored Files/Directories
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
