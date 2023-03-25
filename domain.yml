@@ -5,9 +5,24 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - next_available_appointments
+  - book_appointment
+  - cancel_appointment
+  - update_appointment
+  - get_services
+  - get_subservices
+  - get_service_provider
+  - get_prices
+  - get_recommendation
+  - get_location
+  - get_opening_hours
+  - get_wait_time
+  - get_feedback
+  - make_complaint
+  - thank_you
+
+actions:
+  - action_available_appointments
 
 responses:
   utter_greet:

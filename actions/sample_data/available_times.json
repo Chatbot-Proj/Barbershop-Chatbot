@@ -1,0 +1,52 @@
+{
+  "appointments": [
+    {
+      "time": "10:00 AM",
+      "date": "2023-04-01",
+      "length": 60,
+      "barber_name": "John Smith",
+      "location": {
+        "address": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    },
+    {
+      "time": "2:30 PM",
+      "date": "2023-04-02",
+      "length": 30,
+      "barber_name": "Emily Brown",
+      "location": {
+        "address": "456 Oak St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    },
+    {
+      "time": "9:00 AM",
+      "date": "2023-04-03",
+      "length": 45,
+      "barber_name": "John Smith",
+      "location": {
+        "address": "789 Pine St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    },
+    {
+      "time": "1:00 PM",
+      "date": "2023-04-04",
+      "length": 60,
+      "barber_name": "Emily Brown",
+      "location": {
+        "address": "321 Elm St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    }
+  ]
+}
