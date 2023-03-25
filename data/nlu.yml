@@ -3,89 +3,173 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - Hi there!
+    - Hey!
+    - Hello!
+    - Good morning!
+    - Good afternoon!
+    - Good evening!
+    - Hey, how are you?
+    - Hi, how are you doing?
+    - What's up?
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - Goodbye!
+    - Bye!
+    - See you later!
+    - Talk to you later!
+    - See you soon!
+    - Take care!
+    - Have a nice day!
+    - Bye for now!
+    - Farewell!
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - Yes
+    - Sure
+    - Okay
+    - Sounds good
+    - Absolutely
+    - That's right
+    - I agree
+    - Affirmative
 
 - intent: deny
   examples: |
-    - no
-    - n
-    - never
+    - No
+    - Nope
+    - Not really
     - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - Sorry, I can't
+    - I'd rather not
+    - Negative
 
-- intent: mood_great
+- intent: next_available_appointments
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - When are your next available appointments?
+    - What's your availability like?
+    - Can you tell me when your next openings are?
+    - I'd like to book an appointment, what's your availability?
+    - Are there any available appointments this week?
+    - What times do you have open?
+    - When can I schedule an appointment?
+    - Do you have any appointments available soon?
+    - Any openings for next week?
+    - Can I book an appointment in the next few days?
+    - Next available appointment, please?
 
-- intent: mood_unhappy
+- intent: book_appointment
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - Can I schedule an appointment?
+    - I want to book an appointment
+    - How can I schedule an appointment?
+    - When is the next available appointment?
+    - I'd like to set up a meeting
 
-- intent: bot_challenge
+- intent: cancel_appointment
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - I need to cancel my appointment
+    - Can I cancel my reservation?
+    - How can I cancel an appointment?
+    - I want to cancel my booking
+    - I'm unable to make it to my appointment
+
+- intent: update_appointment
+  examples: |
+    - Can I reschedule my appointment?
+    - I need to change my booking
+    - How do I update my reservation?
+    - I want to modify my appointment details
+    - Can I change the date/time of my appointment?
+
+- intent: get_services
+  examples: |
+    - What services do you offer?
+    - Tell me about your services
+    - What kind of services do you provide?
+    - Can you list your services?
+    - What are your available services?
+
+- intent: get_subservices
+  examples: |
+    - Can you tell me more about your sub-services?
+    - What are your sub-services?
+    - Can you provide more details about your services?
+    - What specific services do you offer?
+    - What are the categories of services you provide?
+
+- intent: get_service_provider
+  examples: |
+    - Who provides the services?
+    - Who are the service providers?
+    - Can you tell me about the professionals who provide the services?
+    - What are the qualifications of your service providers?
+    - Who are the experts in your team?
+
+- intent: get_prices
+  examples: |
+    - How much do your services cost?
+    - Can you give me an idea of your prices?
+    - What is the pricing for your services?
+    - Are there any discounts available?
+    - What are your rates?
+
+- intent: get_recommendation
+  examples: |
+    - Can you suggest a service for me?
+    - What service do you recommend for my needs?
+    - What services do you suggest for my requirements?
+    - Which service is best for me?
+    - Can you give me some recommendations?
+
+- intent: get_location
+  examples: |
+    - Where are you located?
+    - Can you give me your address?
+    - What is your location?
+    - How do I find your location?
+    - Can you provide directions to your location?
+
+- intent: get_opening_hours
+  examples: |
+    - What are your opening hours?
+    - When do you open?
+    - What time do you close?
+    - What are your hours of operation?
+    - When are you available?
+
+- intent: get_wait_time
+  examples: |
+    - How long is the wait time?
+    - What is the estimated wait time?
+    - Can you tell me how long the wait is?
+    - How much time will I have to wait?
+    - Is there a wait time?
+
+- intent: get_feedback
+  examples: |
+    - How was your experience?
+    - Can I give feedback?
+    - I have some feedback for you
+    - What do you think of my experience?
+    - How can I provide feedback?
+
+- intent: make_complaint
+  examples: |
+    - I have a complaint
+    - Can I make a complaint?
+    - I'm not happy with the service
+    - Can I talk to someone about a complaint?
+    - I want to file a complaint
+
+- intent: thank_you
+  examples: |
+    - Thanks!
+    - Thank you!
+    - Thank you so much!
+    - I appreciate it!
+    - Thanks for your help!
+
+
